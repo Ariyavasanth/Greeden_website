@@ -33,7 +33,7 @@ In the Greeden Plant Shop project, i will learn and practice a variety of skills
 
 ## Live Website
 
-You can view the live website here: [Greeden Plant Shop](https://your-website-link.com)
+You can view the live website here: [Greeden Plant Shop](https://greeden.netlify.app)
 
 
 
