@@ -1,0 +1,266 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind css cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <!--icon-->
+    <link rel="icon" href="./assets/plant_icon.png">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Responsive navbar-->
+    <nav class="bg-green-100 uppercase font-semibold p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greeden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 h-5 w-10 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a href="home.html" class="hover:underline hover:text-black">Home</a>
+            </li>
+
+            <li>
+                <a href="#product" class="hover:underline hover:text-black">Product</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="hover:underline hover:text-black">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--header section-->
+    <section class="bg-green-100 py-10 px-5 flex justify-center gap-40 md:px-10 md:py-20">
+        <div>
+            <p class="mb-5">We offer you a wide rage od Artificial ans Natural flowers</p>
+            <h2 class="mb-5 font-bold text-3xl md:text-5xl">Plants for your Interior</h2>
+            <div>
+                <button class="bg-black border rounded p-2 text-white">Shop Now</button>
+                <button class="mb-5 border border-black rounded p-2 text-black hover:bg-black hover:text-white">Watch
+                    video</button>
+            </div>
+
+            <p>160+ Plant Species | 100+ Clients</p>
+        </div>
+
+        <div class="hidden md:block">
+            <img src="./images/plant_3.avif" alt="plant_1" class="w-80">
+        </div>
+    </section>
+
+    <!--about us-->
+    <section class="text-center">
+        <h1 class="font-bold text-3xl mt-5">About Us</h1>
+        <p>This site for those who admire the beauty and harmony of nature</p>
+        <div class=" md:flex block ">
+            <div class="border border-black p-2 m-6 basis-1/3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" class="size-6 h-13 w-12 inline">
+                    <path strokeLinecap="round" strokeLinejoin="round"
+                        d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+                </svg>
+
+                <h2 class="text-xl font-bold">Large Assortment</h2>
+
+                <p class="text-center">We are promoting greenery and sustainability while catering to the rising demand
+                    for both indoor and outdoor plants. They offer a wide range of products, including succulents,
+                    flowering plants, herbs, shrubs, and garden care essentials like fertilizers, pots, and soil. Many
+                    companies also provide services such as landscaping, garden design, and plant care consultations.
+                    With the increasing focus on eco-friendly practices, plant companies are adopting sustainable
+                    growing techniques, organic fertilizers, and innovative technologies like plant care apps</p>
+            </div>
+
+            <div class="border border-black p-2 m-6 basis-1/3">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 h-13 w-12 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                </svg>
+
+                <h2 class="text-xl font-bold">Free and fast Shipping</h2>
+
+                <p class="text-center">Free and fast shipping is a crucial offering that enhances the customer
+                    experience and adds value to any business. It eliminates the barrier of additional costs, making
+                    products more appealing to customers while ensuring they receive their orders quickly and
+                    conveniently. This service builds trust and satisfaction, encouraging repeat purchases and fostering
+                    brand loyalty. In today’s competitive market, free and fast shipping is not just a convenience but
+                    often a deciding factor for customers when choosing where to shop. </p>
+            </div>
+
+            <div class="border border-black p-2 m-6 basis-1/3">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 h-13 w-12 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z">
+                </svg>
+
+                <h2 class="text-xl font-bold">24/7 Support</h2>
+
+                <p class="text-center">Offering 24/7 service ensures customers can access support or shop at any time,
+                    making it a cornerstone of exceptional customer experience. This round-the-clock availability
+                    demonstrates a commitment to meeting customer needs, whether it’s resolving issues, answering
+                    queries, or enabling purchases without time constraints. In today’s fast-paced world, 24/7 service
+                    enhances convenience and reliability, building trust and loyalty. </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Product-->
+    <section id="product" class="w-full flex flex-col justify-center">
+        <h1 class="font-bold mt-5 text-3xl text-center">Our products</h1>
+        <input type="text" name="text" id="product" placeholder="Search for product"
+            class=" border border-black w-5/6 mx-auto p-2 mt-5 focus:outline-none">
+        <div class="grid grid-cols-2 gap-4 mt-10 md:grid-cols-4 mx-5">
+            <div class="text-center ">
+                <img src="./images/rose.jpg" alt="rose_plant"
+                    class="inline hover:shadow-xl transform hover:translate-y-1">
+                <h3>Rose plant</h3>
+                <p>$20</p>
+            </div>
+
+            <div class="text-center">
+                <img src="./images/spider.jpg" alt="rose_plant"
+                    class="inline hover:shadow-xl transform hover:translate-y-1">
+                <h3>Spider plant</h3>
+                <p>$20</p>
+            </div>
+
+            <div class="text-center">
+                <img src="./images/snake_plant.jpg" alt="rose_plant"
+                    class="inline hover:shadow-xl transform hover:translate-y-1">
+                <h3>Snake plant</h3>
+                <p>$20</p>
+            </div>
+
+            <div class="text-center">
+                <img src="./images/palnt_03.jpg" alt="rose_plant"
+                    class="inline hover:shadow-xl transform hover:translate-y-1">
+                <h3>Pilea Peperomioides plant</h3>
+                <p>$30</p>
+            </div>
+
+            <div class="text-center">
+                <img src="./images/grass.jpg" alt="rose_plant"
+                    class="inline hover:shadow-xl transform hover:translate-y-1">
+                <h3>grass plant</h3>
+                <p>$30</p>
+            </div>
+
+            <div class="text-center">
+                <img src="./images/plant.jpg" alt="rose_plant"
+                    class="inline hover:shadow-xl transform hover:translate-y-1">
+                <h3>Pilea depressa plant</h3>
+                <p>$30</p>
+            </div>
+
+            <div class="text-center">
+                <img src="./images/bonsai.jpg" alt="rose_plant"
+                    class="inline hover:shadow-xl transform hover:translate-y-1">
+                <h3>Bonsai</h3>
+                <p>$30</p>
+            </div>
+
+            <div class="text-center">
+                <img src="./images/peace_lily.jpg" alt="rose_plant"
+                    class="inline hover:shadow-xl transform hover:translate-y-1">
+                <h3>Peace lily plant</h3>
+                <p>$30</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Rivews-->
+    <section>
+        <h1 class="font-bold text-3xl text-center mt-5">Customer Rivews</h1>
+        <div class="flex flex-col text-white mx-5 gap-3 mt-3 ">
+            <div class="bg-green-900 p-5 flex flex-col group hover:bg-green-100 hover:text-black">
+                <p>The ceramic pot I purchased looks amazing in my living room. The quality is top-notch, and the design
+                    is modern yet timeless. Absolutely love it! It complements my décor perfectly and adds a touch of
+                    elegance to the space. The pot’s neutral color blends seamlessly with my existing furniture and
+                    provides a lovely contrast to the vibrant green of my plant. I’ve received so many compliments from
+                    friends and family who visit; everyone asks where I got it. What I appreciate most is the pot's
+                    sturdy construction. It feels durable and well-made, giving me confidence that it will last for
+                    years. The drainage hole at the bottom is a thoughtful addition, ensuring my plant's roots stay
+                    healthy without the risk of overwatering. I paired it with a fiddle-leaf fig, and the combination is
+                    stunning.</p>
+                <p class="text-green-200 font-bold self-end group-hover:text-green-800">-Mathew</p>
+            </div>
+
+            <div class="bg-green-900 p-5 flex flex-col group hover:bg-green-100 hover:text-black">
+                <p>The pot is durable and the perfect size for my new indoor plant. It came well-packaged and looks even
+                    better in person than online The pot is durable and the perfect size for my new indoor plant. It
+                    came well-packaged and looks even better in person than online. The sleek design and vibrant finish
+                    make it a stunning addition to my home. Its sturdy build gives me confidence that it will last for
+                    years without any wear or damage. The size is ideal for my fiddle-leaf fig, allowing enough room for
+                    the roots to grow while maintaining a compact footprint. I was particularly impressed by the
+                    thoughtful drainage system, which ensures my plant stays healthy. Overall, a fantastic purchase that
+                    exceeded my expectations!</p>
+                <p class="text-green-200 font-bold self-end group-hover:text-green-800">-Sam</p>
+            </div>
+
+            <div class="bg-green-900 p-5 flex flex-col group hover:bg-green-100 hover:text-black">
+                <p>
+                    I bought a minimalistic pot for my snake plant, and it has completely elevated the space. It has
+                    excellent drainage, too! The clean lines and matte finish give it a modern vibe, perfectly
+                    complementing the plant’s vibrant leaves. It’s lightweight yet sturdy, making it both practical and
+                    visually appealing.</p>
+                <p class="text-green-200 font-bold self-end group-hover:text-green-800">-Chris</p>
+            </div>
+
+            <div class="bg-green-900 p-5  flex flex-col group hover:bg-green-100 hover:text-black">
+                <p>The plant pot is beautiful and arrived on time. It's lightweight but strong, making it easy to move
+                    around. Highly recommend this shop! The sleek design fits perfectly with my home decor, and the
+                    neutral color enhances the natural beauty of my plants. The quality is excellent, and it feels
+                    well-crafted and durable. I also appreciate the drainage hole, which ensures my plants stay healthy
+                    and thrive. The packaging was secure, preventing any damage during delivery. The customer service
+                    was outstanding, keeping me informed throughout the process. I’m so impressed that I plan to
+                    purchase more pots from this shop soon!</p>
+                <p class="text-green-200 font-bold self-end group-hover:text-green-800">-jack</p>
+            </div>
+
+            <div class="bg-green-900 p-5 flex flex-col group hover:bg-green-100 hover:text-black">
+                <p>
+                    This pot exceeded my expectations! The texture and color blend so well with my other decor, adding a
+                    touch of elegance and warmth to the space. The craftsmanship is impeccable, and it feels sturdy and
+                    well-made. Its size is perfect for my indoor plants, providing ample room for growth without being
+                    bulky. The finish is smooth and easy to clean, making it low-maintenance and practical. It arrived
+                    quickly and was securely packaged, ensuring it was in perfect condition upon delivery. I’ve already
+                    received compliments on how it enhances my home. Will definitely buy more to create a cohesive look!
+                </p>
+                <p class="text-green-200 font-bold self-end group-hover:text-green-800">-Banner</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--News letter-->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold text-center mt-5">Join Letter</h1>
+        <p class="text-center text-gray-500">Signb up our email newspaper to get exclusive discounts, updatesm and more
+        </p>
+        <input type="text" name="text" class="block border border-black mx-auto mt-4 p-2 focus:outline-none w-5/6">
+        <button type="submit"
+            class="bg-black text-white decoration-none p-2 mx-auto mt-5 border rounded-lg focus:underline mb-5">Subscribe</button>
+    </section>
+
+    <!-- footer-->
+    <section class="bg-green-100 p-5">
+        <h1 class="font-bold text-3xl">Greeden</h1>
+        <p class="mt-5">The Standard of the greeden is never loss</p>
+        <p class="mt-5">&copy2024 Greenden.com</p>
+    </section>
+
+
+
+</body>
+
+</html>
